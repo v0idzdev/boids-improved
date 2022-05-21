@@ -2,8 +2,26 @@ html,
 body {
     margin: 0;
     padding: 0;
+    /* background: #000; */
+
+    background: rgb(227,94,11);
+    background: linear-gradient(90deg, rgba(227,94,11,1) 0%, rgba(251,140,13,1) 33%, rgba(227,29,11,1) 66%, rgba(255,26,78,1) 100%);
 }
 
-canvas {
+/* canvas {
     display: block;
+} */
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 25px;
 }
